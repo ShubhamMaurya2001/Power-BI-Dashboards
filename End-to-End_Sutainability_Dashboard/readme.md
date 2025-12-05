@@ -1,8 +1,8 @@
-# AI-Driven Sustainability Impact Dashboard Data Pipeline
+# Sustainability Impact Dashboard Data Pipeline
 
 ## 🚀 Project Overview
 
-This repository contains the Python script necessary to generate a foundational dataset for an AI-Driven Sustainability Impact Dashboard. It simulates the ingestion of real-time IoT sensor data (Energy, Occupancy) and blends it with publicly available environmental data (Weather, Solar Irradiance) to calculate core ESG metrics (Scope 2 Emissions).
+This repository contains the Python script necessary to generate a foundational dataset for a Sustainability Impact Dashboard. It simulates the ingestion of real-time IoT sensor data (Energy, Occupancy) and blends it with publicly available environmental data (Weather, Solar Irradiance) to calculate core ESG metrics (Scope 2 Emissions).
 
 The resulting Excel file is optimized for direct consumption by Power BI, enabling the creation of advanced visualizations for corporate net-zero goal tracking and scenario analysis.
 
@@ -62,7 +62,7 @@ Use the generated Excel file to create your interactive sustainability dashboard
 
 ### 3.2 Key Measures (DAX)
 
-Create these foundational DAX measures to calculate key performance indicators (KPIs) in Power BI:
+Foundational DAX measures to calculate key performance indicators (KPIs) in Power BI:
 
 | Measure Name | DAX Formula | Purpose |
 |--------------|-------------|---------|
@@ -72,7 +72,7 @@ Create these foundational DAX measures to calculate key performance indicators (
 
 ### 3.3 Recommended Visualizations
 
-Use the following visuals to bring your data to life:
+There are the following visuals to bring the data to life:
 
 1. **KPI Cards**: Display `Total Emissions` and `Renewable %` for an executive summary header
 2. **Trend Lines (Line Chart)**: Compare the `Energy_Consumption_kWh` against `Outside_Temp_C` over time to visualize the relationship between external environment and internal usage (HVAC correlation)
