@@ -1,5 +1,7 @@
 # Sustainability Impact Dashboard Data Pipeline
 
+### This project is still ongoing
+
 ## 🚀 Project Overview
 
 This repository contains the Python script necessary to generate a foundational dataset for a Sustainability Impact Dashboard. It simulates the ingestion of real-time IoT sensor data (Energy, Occupancy) and blends it with publicly available environmental data (Weather, Solar Irradiance) to calculate core ESG metrics (Scope 2 Emissions).
